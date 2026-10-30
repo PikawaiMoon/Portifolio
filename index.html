@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Rafael | Portfólio</title>
+  <meta name="description" content="Portfólio de João Rafael, estudante de Desenvolvimento de Sistemas em Cascavel/PR.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="#inicio" class="logo">&lt;JoãoRafael /&gt;</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+    <nav id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#linguagens">Linguagens</a>
+      <a href="#ferramentas">Ferramentas</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
+      <p class="ola">Olá, eu sou</p>
+      <h1>João Rafael</h1>
+      <p class="subtitulo">Estudante de <strong>Desenvolvimento de Sistemas</strong> · Cascavel, PR</p>
+      <p class="resumo">Programo em várias linguagens, de sites a robôs, e participo de hackathons, feiras de ciência e competições de robótica.</p>
+      <div class="botoes">
+        <a href="#projetos" class="btn primario">Ver projetos</a>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao reveal">
+      <h2>Sobre mim</h2>
+      <div class="sobre-grid">
+        <p>
+          Sou estudante do ensino médio técnico em Desenvolvimento de Sistemas.
+          Comecei a jornada no <strong>Colégio Arnaldo Busato (Vere)</strong> e hoje
+          continuo os estudos no <strong>São Cristóvão, em Cascavel</strong>.
+          Ao longo do caminho aprendi lógica de programação, desenvolvimento web
+          e programação de robôs, e coloquei tudo isso em prática em competições.
+        </p>
+        <ul class="linha-tempo">
+          <li><span>Antes</span> Colégio Arnaldo Busato — Vere/PR</li>
+          <li><span>Agora</span> São Cristóvão — Cascavel/PR</li>
+          <li><span>Foco</span> Desenvolvimento de Sistemas e Robótica</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LINGUAGENS -->
+    <section id="linguagens" class="secao reveal">
+      <h2>Linguagens que já usei</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Estrutura de páginas e sites.</p>
+        </article>
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Estilo, layout e design responsivo.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Interatividade e lógica para a web.</p>
+        </article>
+        <article class="card">
+          <h3>Python</h3>
+          <p>Lógica, automações e projetos diversos.</p>
+        </article>
+        <article class="card">
+          <h3>C++</h3>
+          <p>Programação estruturada e orientada a objetos.</p>
+        </article>
+        <article class="card">
+          <h3>C</h3>
+          <p>Usada na robótica para controlar sensores e motores.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FERRAMENTAS -->
+    <section id="ferramentas" class="secao reveal">
+      <h2>Ferramentas que já utilizei</h2>
+      <div class="cards">
+        <article class="card destaque">
+          <h3>🛠️ Apache NetBeans</h3>
+          <p>IDE para desenvolvimento de programas e aplicações.</p>
+        </article>
+        <article class="card destaque">
+          <h3>🐙 GitHub</h3>
+          <p>Versionamento de código e publicação de projetos.</p>
+        </article>
+        <article class="card destaque">
+          <h3>💻 VS Code</h3>
+          <p>Editor de código para web, Python e outras linguagens.</p>
+        </article>
+        <article class="card destaque">
+          <h3>🔌 Arduino IDE</h3>
+          <p>Programação de placas Arduino em projetos de robótica e automação.</p>
+        </article>
+        <article class="card destaque">
+          <h3>☁️ Replit</h3>
+          <p>Ambiente de programação online, direto no navegador.</p>
+        </article>
+        <article class="card destaque">
+          <h3>🗄️ MySQL Workbench</h3>
+          <p>Criação e gerenciamento de bancos de dados.</p>
+        </article>
+        <article class="card destaque">
+          <h3>🌓 Eclipse</h3>
+          <p>IDE para desenvolvimento e organização de projetos.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao reveal">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>💧 Pirilampos</h3>
+          <p>Sistema de filtragem da água da máquina de lavar, que permite reutilizá-la para lavar mais roupas e reduz o desperdício de água.</p>
+        </article>
+        <article class="card">
+          <h3>🌱 Identificação de plantas doentes</h3>
+          <p>Sistema que detecta plantas doentes em fotos aéreas por reconhecimento de cores. Uma API envia ao produtor a localização do problema, dividindo a área em grids.</p>
+        </article>
+        <article class="card">
+          <h3>🍓 Estufa automatizada</h3>
+          <p>Estufa que injeta amônia controlada e diluída em água para acelerar o crescimento e aumentar a produção de frutos. Tem ventilação controlada e reaproveita a água evaporada na irrigação, como um terrário.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="ano"></span> João Rafael · Feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
